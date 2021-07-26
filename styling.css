@@ -1,0 +1,44 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+/*Background Image*/
+body{
+	font-family: 'Truculenta', sans-serif;
+	background: url("pencil_notes.jpg") no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+/*Jumbotron*/
+.jumbotron{
+	background-color: transparent;
+	text-align: center;
+	letter-spacing: 2.5px;
+	margin-top: 170px;
+	padding: 10px;
+}
+
+/*Buttons*/
+.signup{
+	margin-top: 100px;
+}
+
+.orange{
+	background-color: rgba(245,138,6,0.8); 
+}
+.orange:hover{
+	background-color: rgb(245,138,6);
+}
+
+/*Footer*/
+.footer{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(244,185,97,0.8);
+	padding-top: 10px;
+}
